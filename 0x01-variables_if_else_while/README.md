@@ -1,0 +1,1 @@
+project done during the full stack studies at ALX, with the major aim of learning arithmetics,operators,relational operators,boolean operators, comments, variables declaration and loops in C Language.
