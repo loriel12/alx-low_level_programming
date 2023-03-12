@@ -1,20 +1,25 @@
 #ifndef MAIN_H
 #define MAIN_H
-#include <stddef.h>
-#include <stdio.h>
+
+#include <unistd.h>
 /**
 *void prototypes(void)
 *int prototypes(int)
-*char prototypes(char)
+*char prototypes(char) 
 */
-void print_chessboard(char (*a)[8]);
-void print_diagsums(int *a, int size);
-void set_string(char **s, char *to);
-unsigned int _strspn(char *s, char *accept);
+void _puts_recursion(char *s);
+ void _print_rev_recursion(char *s);
 int _putchar(char c);
-char *_memset(char *s, char b, unsigned int n);
-char *_memcpy(char *dest, char *src, unsigned int n);
-char *_strchr(char *s, char c);
-char *_strpbrk(char *s, char *accept);
-char *_strstr(char *haystack, char *needle);
+int _strlen_recursion(char *s);
+int factorial(int n);
+int _pow_recursion(int x, int y);
+int _sqrt_recursion(int n);
+int is_prime_number(int n);
+int is_palindrome(char *s);
+int wildcmp(char *s1, char *s2);
+int _sqrt(int n, int x);
+int is_prime(int n, int start);
+int find_strlen(char *s);
+int check_palindrome(char *s, int len, int index);
+
 #endif /* MAIN_H */
